@@ -1,4 +1,4 @@
-update=2015 March 11, Wednesday 07:48:46
+update=2015 March 11, Wednesday 08:18:13
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=lib
@@ -60,3 +58,5 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=lib/LevelShifter Components
+[general]
+version=1
