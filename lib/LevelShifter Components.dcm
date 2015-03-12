@@ -12,4 +12,10 @@ K N-Channel MOSFET
 F doc/FDC6305N.pdf
 $ENDCMP
 #
+$CMP IRLML2502
+D IRLML2502, 20V Vds, N-Channel MOSFET, Micro3
+K N-Channel MOSFET
+F doc/162827-da-01-en-IRLML_2402TR.pdf
+$ENDCMP
+#
 #End Doc Library
