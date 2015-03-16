@@ -2,4 +2,4 @@
 *.bck
 i2c-LevelShifter-cache.lib
 *.kicad_pcb-bak
-
+.DS_Store

@@ -1,0 +1,59 @@
+Cmp-Mod V01 Created by Cvpcb (2015-02-22 BZR 5447)-product   date = 2015 March 16, Monday 14:07:09
+
+BeginCmp
+TimeStamp = /5506CE8C;
+Reference = P101;
+ValeurCmp = 3v3;
+IdModule  = Socket_Strips:Socket_Strip_Straight_1x04;
+EndCmp
+
+BeginCmp
+TimeStamp = /5506D0B1;
+Reference = P102;
+ValeurCmp = 5v;
+IdModule  = Socket_Strips:Socket_Strip_Straight_1x04;
+EndCmp
+
+BeginCmp
+TimeStamp = /5500B552;
+Reference = Q101;
+ValeurCmp = IRLML2502;
+IdModule  = i2cLib:Micro3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5500B5B3;
+Reference = Q102;
+ValeurCmp = IRLML2502;
+IdModule  = i2cLib:Micro3;
+EndCmp
+
+BeginCmp
+TimeStamp = /54FFEABF;
+Reference = R101;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54FFEB5A;
+Reference = R102;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54FFEB90;
+Reference = R103;
+ValeurCmp = 1k5;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54FFEBCF;
+Reference = R104;
+ValeurCmp = 1k5;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+EndListe
