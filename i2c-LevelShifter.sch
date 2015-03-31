@@ -30,6 +30,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:LevelShifter Components
+LIBS:i2c-LevelShifter-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -114,26 +115,26 @@ Wire Wire Line
 Connection ~ 5000 1600
 Connection ~ 5400 1600
 Wire Wire Line
-	5000 2200 5000 2900
+	5000 2100 5000 2900
 Connection ~ 5000 2900
 Connection ~ 4700 2350
 Wire Wire Line
-	6300 2900 6300 2200
+	6300 2100 6300 2900
 Connection ~ 6300 2900
 Wire Wire Line
-	6600 2200 6600 2350
+	6600 2100 6600 2350
 Connection ~ 6600 2350
 Wire Wire Line
 	6300 1600 7900 1600
 Wire Wire Line
-	6300 1600 6300 1700
+	6300 1600 6300 1800
 Wire Wire Line
-	6600 1600 6600 1700
+	6600 1600 6600 1800
 Connection ~ 6600 1600
 Wire Wire Line
-	4700 1600 4700 1700
+	4700 1600 4700 1800
 Wire Wire Line
-	5000 1600 5000 1700
+	5000 1600 5000 1800
 $Comp
 L GND #PWR01
 U 1 1 55009C82
@@ -193,7 +194,7 @@ $EndComp
 Text Notes 3600 4700 0    60   ~ 0
 When SDA1 is pulled low, the voltage across \nQ101 gs will be 3.3V which is higher than the \nthreshold voltage of 1.2V, so Q101 ds will \nstart to conduct through R104.\n\n	R104 = 1k5\n	VDD2 = 5v\n	Vgs(th) = 1.2V\n \n	Ir104 = VDD2 : R104\n	Ir104 = 5 : 1k5\n	Ir104 = 3.333... mA\n\nThe selected part has an Id of 4.2 A\n\nThis implies a high impedence of the device(s)\nconnected to the SDA1.
 Wire Wire Line
-	4700 2350 4700 2200
+	4700 2100 4700 2350
 Wire Wire Line
 	7500 1700 7500 1950
 Wire Wire Line
