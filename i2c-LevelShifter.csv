@@ -1,0 +1,6 @@
+Reference, Quantity, Value, Footprint, Datasheet, MPN, ConradPN
+P101, ,1,3v3,Socket_Strips:Socket_Strip_Straight_1x04,,"SCS4AA3","1311448 - 62 "
+P102, ,1,5v,Socket_Strips:Socket_Strip_Straight_1x04,,"SCS4AA3","1311448 - 62 "
+Q101, Q102, ,2,IRLML2502,SOT-23,,"IRLML2502TRPBF","162827 - 62"
+R101, R102, ,2,10k,Resistors_SMD:R_0805,
+R103, R104, ,2,1k5,Resistors_SMD:R_0805,

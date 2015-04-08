@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/Users/steve/Documents/PCBs/i2c-LevelShifter/i2c-LevelShifter.sch</source>
+    <date>2015 March 31, Tuesday 17:09:53</date>
+    <tool>Eeschema (2015-03-25 BZR 5536)-product</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date>10 mar 2015</date>
+        <source>i2c-LevelShifter.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="R101">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54FFEABF</tstamp>
+    </comp>
+    <comp ref="R102">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54FFEB5A</tstamp>
+    </comp>
+    <comp ref="R103">
+      <value>1k5</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54FFEB90</tstamp>
+    </comp>
+    <comp ref="R104">
+      <value>1k5</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54FFEBCF</tstamp>
+    </comp>
+    <comp ref="Q101">
+      <value>IRLML2502</value>
+      <footprint>SOT-23</footprint>
+      <fields>
+        <field name="MPN">IRLML2502TRPBF</field>
+        <field name="ConradPN">162827 - 62</field>
+      </fields>
+      <libsource lib="LevelShifter Components" part="IRLML2502"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5500B552</tstamp>
+    </comp>
+    <comp ref="Q102">
+      <value>IRLML2502</value>
+      <footprint>SOT-23</footprint>
+      <fields>
+        <field name="MPN">IRLML2502TRPBF</field>
+        <field name="ConradPN">162827 - 62</field>
+      </fields>
+      <libsource lib="LevelShifter Components" part="IRLML2502"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5500B5B3</tstamp>
+    </comp>
+    <comp ref="P101">
+      <value>3v3</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_1x04</footprint>
+      <fields>
+        <field name="MPN">SCS4AA3</field>
+        <field name="ConradPN">1311448 - 62 </field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5506CE8C</tstamp>
+    </comp>
+    <comp ref="P102">
+      <value>5v</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_1x04</footprint>
+      <fields>
+        <field name="MPN">SCS4AA3</field>
+        <field name="ConradPN">1311448 - 62 </field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5506D0B1</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X04">
+      <footprints>
+        <fp>Pin_Header_Straight_1X04</fp>
+        <fp>Pin_Header_Angled_1X04</fp>
+        <fp>Socket_Strip_Straight_1X04</fp>
+        <fp>Socket_Strip_Angled_1X04</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LevelShifter Components" part="IRLML2502">
+      <description>IRLML2502, 20V Vds, N-Channel MOSFET, Micro3</description>
+      <docs>doc/162827-da-01-en-IRLML_2402TR.pdf</docs>
+      <footprints>
+        <fp>Micro*</fp>
+        <fp>SOT*23</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">IRLML2502</field>
+        <field name="Footprint">Micro3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>/Library/Application Support/kicad/library/device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/Library/Application Support/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="LevelShifter Components">
+      <uri>/Users/steve/Documents/PCBs/i2c-LevelShifter/lib/LevelShifter Components.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/VDD1=3v3">
+      <node ref="R102" pin="1"/>
+      <node ref="R101" pin="1"/>
+      <node ref="P101" pin="1"/>
+      <node ref="Q102" pin="1"/>
+      <node ref="Q101" pin="1"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="P101" pin="2"/>
+      <node ref="P102" pin="2"/>
+    </net>
+    <net code="3" name="/SDA1">
+      <node ref="R101" pin="2"/>
+      <node ref="Q101" pin="2"/>
+      <node ref="P101" pin="3"/>
+    </net>
+    <net code="4" name="/VSS2=5v">
+      <node ref="R104" pin="1"/>
+      <node ref="R103" pin="1"/>
+      <node ref="P102" pin="1"/>
+    </net>
+    <net code="5" name="/SDA2">
+      <node ref="R104" pin="2"/>
+      <node ref="P102" pin="3"/>
+      <node ref="Q101" pin="3"/>
+    </net>
+    <net code="6" name="/SCL2">
+      <node ref="Q102" pin="3"/>
+      <node ref="P102" pin="4"/>
+      <node ref="R103" pin="2"/>
+    </net>
+    <net code="7" name="/SCL1">
+      <node ref="R102" pin="2"/>
+      <node ref="Q102" pin="2"/>
+      <node ref="P101" pin="4"/>
+    </net>
+  </nets>
+</export>
